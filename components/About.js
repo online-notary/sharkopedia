@@ -2,14 +2,12 @@ import React, { Component } from 'react';
 import PropTypes from "prop-types";
 import Slider from "react-slick";
 import Image from 'next/image'
-
 import aboutImage from '../public/img/about-img.png'
-
 import animationImg1 from '../public/img/3.png'
 import animationImg2 from '../public/img/4.png'
 import animationImg3 from '../public/img/1.png'
 import animationImg4 from '../public/img/6.png'
- 
+
 export class About extends Component {
   render() {
 
@@ -31,7 +29,7 @@ export class About extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="about-image">
-                            <Image 
+                            <img 
                                 src={aboutImage} 
                                 alt="about-img" 
                             />
@@ -159,16 +157,16 @@ export class About extends Component {
                 </div>
 
                 <div className="animation-box1">
-                    <Image src={animationImg1} alt="styleimage" />
+                    <img src={animationImg1} alt="styleimage" />
                 </div>
                 <div className="animation-box2">
-                    <Image src={animationImg2} alt="styleimage" />
+                    <img src={animationImg2} alt="styleimage" />
                 </div>
                 <div className="animation-box3">
-                    <Image src={animationImg3} alt="styleimage" />
+                    <img src={animationImg3} alt="styleimage" />
                 </div>
                 <div className="animation-box6">
-                    <Image src={animationImg4} alt="styleimage" />
+                    <img src={animationImg4} alt="styleimage" />
                 </div>
             </section>
         </>

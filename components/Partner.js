@@ -49,7 +49,7 @@ class Partners extends Component {
         const partnerData = this.props.partnersData.map((partner, index) => (
             <div className="col-lg-12 col-md-12" key={index}>
                 <a href={partner.partnerLink} target="_blank" rel='noreferrer'>
-                    <Image 
+                    <img 
                         src={partner.partnerLogo} 
                         alt="partner" 
                         width={140}

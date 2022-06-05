@@ -37,7 +37,7 @@ class LightboxPage extends React.Component {
                             <div className="single-work">
                                 <figure>
                                     <div className="work-image">
-                                        <Image
+                                        <img
                                             src={portfolioImg1}
                                             alt="Gallery"
                                             className="img-fluid"
@@ -58,7 +58,7 @@ class LightboxPage extends React.Component {
                             <div className="single-work">
                                 <figure>
                                     <div className="work-image">
-                                        <Image
+                                        <img
                                             src={portfolioImg2}
                                             alt="Gallery"
                                             className="img-fluid"
@@ -78,7 +78,7 @@ class LightboxPage extends React.Component {
                             <div className="single-work">
                                 <figure>
                                     <div className="work-image">
-                                        <Image
+                                        <img
                                             src={portfolioImg3}
                                             alt="Gallery"
                                             className="img-fluid"
@@ -99,7 +99,7 @@ class LightboxPage extends React.Component {
                             <div className="single-work">
                                 <figure>
                                     <div className="work-image">
-                                        <Image
+                                        <img
                                             src={portfolioImg4}
                                             alt="Gallery"
                                             className="img-fluid"
@@ -120,7 +120,7 @@ class LightboxPage extends React.Component {
                             <div className="single-work">
                                 <figure>
                                     <div className="work-image">
-                                        <Image
+                                        <img
                                             src={portfolioImg5}
                                             alt="Gallery"
                                             className="img-fluid"
@@ -141,7 +141,7 @@ class LightboxPage extends React.Component {
                             <div className="single-work">
                                 <figure>
                                     <div className="work-image">
-                                        <Image
+                                        <img
                                             src={portfolioImg6}
                                             alt="Gallery"
                                             className="img-fluid"

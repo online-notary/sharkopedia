@@ -11,7 +11,7 @@ export class News extends Component {
                 <div className="single-blog-post">
                     <div className="post-thumbnail">
                         <a href={news.imglink} target="_blank" rel='noreferrer'>
-                            <Image 
+                           <img 
                                 src={news.image} 
                                 alt="blog-img" 
                                 width={600} 

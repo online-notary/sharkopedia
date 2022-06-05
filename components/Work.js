@@ -18,13 +18,13 @@ export class Work extends Component {
                     </div>
 
                     <div className="animation-box1">
-                        <Image src={animationimg1} alt="animateimage" />
+                        <img src={animationimg1} alt="animateimage" />
                     </div>
                     <div className="animation-box2">
-                        <Image src={animationimg2} alt="animateimage" />
+                        <img src={animationimg2} alt="animateimage" />
                     </div>
                     <div className="animation-box3">
-                        <Image src={animationimg3} alt="animateimage" />
+                        <img src={animationimg3} alt="animateimage" />
                     </div>
                 </section>
             </>

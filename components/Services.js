@@ -29,7 +29,7 @@ export class Services extends Component {
                         <div className="row">{servicedata}</div>
                     </div>
                     <div className="animation-box5">
-                        <Image 
+                        <img 
                             src={animationImg} 
                             className="rotateme" 
                             alt="vector" 

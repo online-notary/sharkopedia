@@ -118,37 +118,37 @@ class HomeSlides extends Component {
                         </div>
 
                         <div className="animation-box1">
-                            <Image
+                            <img
                                 src={animationImg1}
                                 alt="sliderimage"
                             />
                         </div>
                         <div className="animation-box2">
-                            <Image
+                            <img
                                 src={animationImg2}
                                 alt="sliderimage"
                             />
                         </div>
                         <div className="animation-box3">
-                            <Image
+                            <img
                                 src={animationImg3}
                                 alt="sliderimage"
                             />
                         </div>
                         <div className="animation-box4">
-                            <Image
+                            <img
                                 src={animationImg4}
                                 alt="sliderimage"
                             />
                         </div>
                         <div className="animation-box6">
-                            <Image
+                            <img
                                 src={animationImg5}
                                 alt="sliderimage"
                             />
                         </div>
                         <div className="animation-box7">
-                            <Image
+                            <img
                                 src={animationImg6}
                                 className="rotateme"
                                 alt="sliderimage"

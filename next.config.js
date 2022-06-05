@@ -3,4 +3,13 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  exportPathMap: function () {
+    return {
+      '/': { page: '/' }
+    }
+  },
+ images: {
+    domains: ['res.cloudinary.com'],
+  },
+}

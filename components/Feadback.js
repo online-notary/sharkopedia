@@ -44,7 +44,7 @@ export class Feadback extends Component {
                 <div className="single-feedback mlr-15">
                     <div className="client-info">
                         <div className="img">
-                            <Image src={feadback.image} alt="client" width={100} height={100} />
+                            <img src={feadback.image} alt="client" width={100} height={100} />
                         </div>
                         <h4>{feadback.name}</h4>
                         <span>{feadback.profession}</span>

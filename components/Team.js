@@ -54,7 +54,7 @@ export class Team extends Component {
         const teamdata = this.props.teamsData.map((team, index ) =>(
             <div className="col-lg-12 col-md-12 col-sm-12" key={index}>
                 <div className="single-team plr-15">
-                    <Image 
+                    <img 
                         src={team.img} 
                         alt="team-img" 
                         width={300}
@@ -121,16 +121,16 @@ export class Team extends Component {
                     </div>
 
                     <div className="animation-box1">
-                        <Image src={animationimg1} alt="animateimage" />
+                        <img src={animationimg1} alt="animateimage" />
                     </div>
                     <div className="animation-box2">
-                        <Image src={animationimg2} alt="animateimage" />
+                        <img src={animationimg2} alt="animateimage" />
                     </div>
                     <div className="animation-box3">
-                        <Image src={animationimg3} alt="animateimage" />
+                        <img src={animationimg3} alt="animateimage" />
                     </div>
                     <div className="animation-box4">
-                        <Image src={animationimg4} alt="animateimage" />
+                        <img src={animationimg4} alt="animateimage" />
                     </div>
                 </section>
             </>

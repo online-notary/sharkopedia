@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "export": "npm run build && next export -o _static"
   },
   "dependencies": {
     "axios": "^0.25.0",
@@ -22,7 +22,8 @@
     "react-visibility-sensor": "^5.1.1",
     "sass": "^1.49.0",
     "sweetalert2": "^11.3.6",
-    "sweetalert2-react-content": "^4.2.0"
+    "sweetalert2-react-content": "^4.2.0",
+    "vercel": "^25.0.0"
   },
   "devDependencies": {
     "eslint": "^8.7.0",

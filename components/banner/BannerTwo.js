@@ -77,19 +77,19 @@ class BannerTwo extends Component {
                     </div>
 
                     <div className="animation-box1">
-                        <Image src={animationImg1} alt="sliderimage" />
+                        <img src={animationImg1} alt="sliderimage" />
                     </div>
                     <div className="animation-box2">
-                        <Image src={animationImg2} alt="sliderimage" />
+                        <img src={animationImg2} alt="sliderimage" />
                     </div>
                     <div className="animation-box3">
-                        <Image src={animationImg3} alt="sliderimage" />
+                        <img src={animationImg3} alt="sliderimage" />
                     </div>
                     <div className="animation-box4">
                         <iImagemg src={animationImg4} alt="sliderimage" />
                     </div>
                     <div className="animation-box6">
-                        <Image src={animationImg5} alt="sliderimage" />
+                        <img src={animationImg5} alt="sliderimage" />
                     </div>
 
                     <div className="creative-box1" />
